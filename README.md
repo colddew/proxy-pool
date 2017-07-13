@@ -1,6 +1,6 @@
 profile
 =======
-highly available ip proxy pool built on java, just for better tuning
+highly available proxy pool built on java, just for better tuning
 
 tech stack
 =======
