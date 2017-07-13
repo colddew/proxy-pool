@@ -24,8 +24,10 @@ build
 
 endpoint
 =======
-GET http://{host}:{port}/proxypool/api/v1/proxies/random
-GET http://{host}:{port}/proxypool/api/v1/proxies?pageNo={pageNo}&pageSize={pageSize}
-DELETE http://{host}:{port}/proxypool/api/v1/proxies/{proxy}
-GET http://{host}:{port}/proxypool/api/v1/proxies/refresh
-GET http://{host}:{port}/proxypool/api/v1/proxies/check
+GET `http://{host}:{port}/proxypool/api/v1/proxies/random`  
+GET `http://{host}:{port}/proxypool/api/v1/proxies?pageNo={pageNo}&pageSize={pageSize}`  
+DELETE `http://{host}:{port}/proxypool/api/v1/proxies/{proxy}`  
+GET `http://{host}:{port}/proxypool/api/v1/proxies/refresh`  
+GET `http://{host}:{port}/proxypool/api/v1/proxies/{proxy}/check`  
+POST `http://{host}:{port}/proxypool/api/v1/proxies`  
+POST `http://{host}:{port}/proxypool/api/v1/proxies`  
